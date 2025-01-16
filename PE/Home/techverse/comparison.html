@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techverse</title>
+    <link rel="stylesheet" href="/techverse/comparison.css">
+    <script src="/techverse/build.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d9ac875553.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="top-bar">
+        <div class="top-content">
+            <section class="phone">
+                <i class="fa fa-phone icon" aria-hidden="true"></i>
+                0559 222 807
+            </section>
+            <section class="email">
+                <i class="fa fa-envelope icon"></i>
+                contact@techverse.com
+            </section>
+        </div>
+    </div>
+    <div class="bot-bar">
+        <div class="bot-content">
+            <a class="logo" href="/techverse/techverse.html">
+                <img class="logo_img" src="/techverse/techpic/logo.webp" alt="Techverse Logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="/techverse/techverse.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown-products">
+                            <a href="#" class="nav-link product">Products</a>
+                            <div class="dropdown-content">
+                                <a href="/techverse/monitor.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa fa-desktop"></i>
+                                        </div>
+                                        <span>Monitors</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <a href="/techverse/keyboards.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa fa-keyboard"></i>
+                                        </div>
+                                        <span>Keyboards</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <a href="/techverse/mouse.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa-solid fa-computer-mouse"></i>
+                                        </div>
+                                        <span>Mouse</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <a href="/techverse/mousepad.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa-solid fa-square"></i>
+                                        </div>
+                                        <span>Mousepads</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <a href="/techverse/headphones.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa-solid fa-headphones"></i>
+                                        </div>
+                                        <span>Headphones</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <a href="/techverse/components.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa-solid fa-microchip"></i>
+                                        </div>
+                                        <span>Components</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown-products">
+                            <a href="#" class="nav-link">Services</a>
+                            <div class="dropdown-content">
+                                <a href="/techverse/build.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                                        </div>
+                                        <span>Build</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <a href="/techverse/repair.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa fa-keyboard"></i>
+                                        </div>
+                                        <span>Repair</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <a href="/techverse/comparison.html" class="category-card">
+                                    <div class="category-content">
+                                        <div class="icon-wrapper">
+                                            <i class="fa-solid fa-computer-mouse"></i>
+                                        </div>
+                                        <span>Comparison</span>
+                                    </div>
+                                    <i class="fa fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/techverse/contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="ham">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="login">
+                <a href="#"><button class="btn-login">Log in</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container-tech">
+        <img src="/techverse/techpic/ezgif-6-8a46eb6032.webp" alt="Techverse Logo" style="width: 1000px;">
+        <h4>Your One-Stop Shop for PCs, Accessories, and Expert Repairs</h4>    
+    </div> -->
+</header>
+<div class="container2">
+        <div class="header2">
+            <h1>PC Build Comparison</h1>
+            <p>Select multiple PCs to compare side-by-side</p>
+        </div>
+
+        <div class="controls">
+            <button onclick="loadPreset('gaming')">Load Gaming Builds</button>
+            <button onclick="loadPreset('workstation')" class="secondary">Load Workstation Builds</button>
+            <button onclick="compareSelected()" class="secondary">Compare Selected</button>
+        </div>
+
+        <div id="buildsContainer" class="builds-grid">
+            <!-- PC builds will be inserted here -->
+        </div>
+
+        <div id="comparisonView" class="comparison-view">
+            <!-- Comparison table will be inserted here -->
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    <script>
+        class PCComparison {
+            constructor() {
+              this.builds = [];
+              this.selectedBuilds = new Set();
+              this.presets = {
+                gaming: [
+                  {
+                    id: 1,
+                    name: 'High-End Gaming',
+                    brand: 'Custom Build',
+                    cpu: 'Intel Core i9-13900K',
+                    cpuSpeed: '5.8 GHz',
+                    gpu: 'NVIDIA RTX 4090',
+                    gpuPerformance: '24GB GDDR6X',
+                    ram: '32GB DDR5',
+                    ramSpeed: '6000MHz',
+                    storage: '2TB NVMe SSD',
+                    os: 'Windows 11 Pro',
+                    price: 3499.99,
+                    rating: 4.8,
+                    reviews: 156,
+                    screenSize: '27" 4K',
+                    ports: 'USB 3.2, HDMI 2.1, DP 1.4',
+                    buildQuality: 'Premium',
+                  },
+                  {
+                    id: 2,
+                    name: 'Mid-Range Gaming',
+                    brand: 'Custom Build',
+                    cpu: 'AMD Ryzen 7 7800X',
+                    cpuSpeed: '5.4 GHz',
+                    gpu: 'NVIDIA RTX 4070',
+                    gpuPerformance: '12GB GDDR6X',
+                    ram: '16GB DDR5',
+                    ramSpeed: '5600MHz',
+                    storage: '1TB NVMe SSD',
+                    os: 'Windows 11 Home',
+                    price: 1799.99,
+                    rating: 4.6,
+                    reviews: 234,
+                    screenSize: '27" 1440p',
+                    ports: 'USB 3.2, HDMI 2.1, DP 1.4',
+                    buildQuality: 'High',
+                  },
+                  {
+                    id: 3,
+                    name: 'Low-Range Gaming',
+                    brand: 'Custom Build',
+                    cpu: 'AMD Ryzen 3 4300GE',
+                    cpuSpeed: '3.6 GHz',
+                    gpu: 'NVIDIA GTX 1060TI',
+                    gpuPerformance: '6GB GDDR6X',
+                    ram: '16GB DDR4',
+                    ramSpeed: '3200MHz',
+                    storage: '512GB NVMe SSD', // Corrected storage size
+                    os: 'Windows 10 Home',
+                    price: 1799.99,
+                    rating: 4.4,
+                    reviews: 234,
+                    screenSize: '27" 1440p',
+                    ports: 'USB 3.2, HDMI 2.1, DP 1.4',
+                    buildQuality: 'Medium',
+                  },
+                ],
+                workstation: [
+                  {
+                    id: 4,
+                    name: 'Professional Workstation',
+                    brand: 'Custom Build',
+                    cpu: 'AMD Threadripper 7980X',
+                    cpuSpeed: '5.1 GHz',
+                    gpu: 'NVIDIA RTX 4000 Ada',
+                    gpuPerformance: '20GB GDDR6',
+                    ram: '128GB DDR5 ECC',
+                    ramSpeed: '5200MHz',
+                    storage: '4TB NVMe SSD',
+                    os: 'Windows 11 Pro',
+                    price: 5999.99,
+                    rating: 4.9,
+                    reviews: 87,
+                    screenSize: '32" 4K',
+                    ports: 'USB 3.2, HDMI 2.1, DP 1.4, TB4',
+                    buildQuality: 'Enterprise',
+                  },
+                  {
+                    id: 5,
+                    name: 'Creative Powerhouse',
+                    brand: 'Custom Build',
+                    cpu: 'Intel Xeon Gold 6354', 
+                    cpuSpeed: '3.7 GHz', // Xeon CPUs often prioritize core count over single-core speed
+                    gpu: 'NVIDIA RTX 6000 Ada', 
+                    gpuPerformance: '24GB GDDR6',
+                    ram: '256GB DDR5 ECC Registered', 
+                    ramSpeed: '4800MHz', 
+                    storage: '8TB NVMe SSD RAID 0', // High-performance RAID for creative workloads
+                    os: 'Windows 11 Pro for Workstations',
+                    price: 12999.99,
+                    rating: 4.8,
+                    reviews: 42,
+                    screenSize: '34" Ultrawide 5K',
+                    ports: 'USB 4.0, Thunderbolt 4, 10GbE', 
+                    buildQuality: 'Enterprise'
+                  },
+                  {
+                    id: 6,
+                    name: 'Compact Workstation',
+                    brand: 'Intel NUC 13 Extreme', 
+                    cpu: 'Intel Core i9-13900KS', 
+                    cpuSpeed: '6.0 GHz',
+                    gpu: 'NVIDIA GeForce RTX 4070 Ti', 
+                    gpuPerformance: '12GB GDDR6X',
+                    ram: '64GB DDR5',
+                    ramSpeed: '5600MHz',
+                    storage: '2TB NVMe SSD',
+                    os: 'Windows 11 Pro',
+                    price: 3999.99,
+                    rating: 4.7,
+                    reviews: 78,
+                    screenSize: '27" 4K',
+                    ports: 'USB 4.0, Thunderbolt 4',
+                    buildQuality: 'Premium'
+                  },
+
+                ],
+              };
+            }
+        
+            loadPreset(type) {
+              this.builds = this.presets[type];
+              this.selectedBuilds.clear();
+              this.render();
+            }
+        
+            toggleSelect(buildId) {
+              if (this.selectedBuilds.has(buildId)) {
+                this.selectedBuilds.delete(buildId);
+              } else {
+                this.selectedBuilds.add(buildId);
+              }
+              this.render();
+            }
+        
+            compareSelected() {
+              if (this.selectedBuilds.size < 2) {
+                alert('Please select at least 2 PCs to compare');
+                return;
+              }
+        
+              const selectedPCs = this.builds.filter(build => this.selectedBuilds.has(build.id));
+              this.renderComparison(selectedPCs);
+            }
+        
+            render() {
+              const container = document.getElementById('buildsContainer');
+              container.innerHTML = this.builds.map(build => `
+                <div class="build-card ${this.selectedBuilds.has(build.id) ? 'selected' : ''}">
+                  <input type="checkbox" 
+                         class="select-checkbox" 
+                         ${this.selectedBuilds.has(build.id) ? 'checked' : ''}
+                         onclick="comparison.toggleSelect(${build.id})">
+                  <h2 class="build-title">${build.name}</h2>
+                  <div class="spec-item">
+                    <span class="spec-label">Brand</span>
+                    <span>${build.brand}</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">CPU</span>
+                    <span>${build.cpu}</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">GPU</span>
+                    <span>${build.gpu}</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">RAM</span>
+                    <span>${build.ram}</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">Storage</span>
+                    <span>${build.storage}</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">OS</span>
+                    <span>${build.os}</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">Rating</span>
+                    <span class="rating">★★★★★ (${build.rating})</span>
+                  </div>
+                  <div class="price">$${build.price.toLocaleString()}</div>
+                </div>
+              `).join('');
+            }
+        
+            renderComparison(selectedPCs) {
+              const comparisonView = document.getElementById('comparisonView');
+              comparisonView.classList.add('active');
+        
+              const specs = [
+                { key: 'name', label: 'Model' },
+                { key: 'brand', label: 'Brand' },
+                { key: 'cpu', label: 'CPU' },
+                { key: 'cpuSpeed', label: 'CPU Speed' },
+                { key: 'gpu', label: 'GPU' },
+                { key: 'gpuPerformance', label: 'GPU Performance' },
+                { key: 'ram', label: 'RAM' },
+                { key: 'ramSpeed', label: 'RAM Speed' },
+                { key: 'storage', label: 'Storage' },
+                { key: 'os', label: 'Operating System' },
+                { key: 'screenSize', label: 'Screen Size' },
+                { key: 'ports', label: 'Ports' },
+                { key: 'buildQuality', label: 'Build Quality' },
+                { key: 'rating', label: 'User Rating' },
+                { key: 'price', label: 'Price', format: v => `$${v.toLocaleString()}` },
+              ];
+        
+              comparisonView.innerHTML = `
+                <table class="comparison-table">
+                  <thead>
+                    <tr>
+                      <th>Feature</th>
+                      ${selectedPCs.map(pc => `<th>${pc.name}</th>`).join('')}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${specs.map(spec => `
+                      <tr>
+                        <td>${spec.label}</td>
+                        ${selectedPCs.map(pc => `
+                          <td>${spec.format ? spec.format(pc[spec.key]) : pc[spec.key]}</td>
+                        `).join('')}
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              `;
+            }
+          }
+        
+          const comparison = new PCComparison();
+        
+          function loadPreset(type) {
+            comparison.loadPreset(type);
+          }
+        
+          function compareSelected() {
+            comparison.compareSelected();
+          }
+        
+          // Initial load
+          comparison.loadPreset('gaming');
+    </script>
+</body>
+</html>
